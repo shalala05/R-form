@@ -1,0 +1,26 @@
+body{
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+input{
+  margin-right: 40px;
+  padding: 5px 10px;
+  background-color: rgb(250, 242, 231);
+}
+select{
+  padding: 6px 10px;
+  background-color: rgb(250, 242, 231);
+}
+#root{
+  border: 1px solid black;
+  padding: 50px;
+  border-radius: 20px;
+  background-color: rgb(216, 237, 255);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+ul{
+  list-style-type: none;
+  padding: 0
+}

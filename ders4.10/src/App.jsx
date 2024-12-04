@@ -1,10 +1,10 @@
 import React from 'react';
-import Employees from './EmployeesList.jsx';
+import EmployeesList from './EmployeesList.jsx';
 
 const App = () => {
   return (
     <div>
-      <Employees/>
+      <EmployeesList/>
     </div>
   );
 };
