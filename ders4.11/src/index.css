@@ -1,0 +1,24 @@
+body{
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+button{
+  padding: 6px 10px;
+  margin: 10px;
+}
+#root{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000000;
+  width: 500px;
+  border-radius: 30px;
+  background-color: rgb(181, 254, 254);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+li{
+  margin-bottom: 10px;
+}

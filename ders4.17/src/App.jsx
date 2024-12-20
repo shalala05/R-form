@@ -1,11 +1,20 @@
 import React from 'react';
-import EmployeesList from './EmployeesList.jsx';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './Navbar';
+import Clock from './Clock';
+import Stopwatch from './Stopwatch';
+import Timer from './Timer';
 
 const App = () => {
   return (
-    <div>
-      <EmployeesList/>
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/clock" element={<Clock />} />
+        <Route path="/stopwatch" element={<Stopwatch />} />
+        <Route path="/timer" element={<Timer />} />
+      </Routes>
+    </Router>
   );
 };
 
